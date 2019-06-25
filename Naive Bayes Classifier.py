@@ -85,7 +85,7 @@ class NaiveBayesClassifier:
     
 #Example
 #using pandas we read the dataset
-df=pd.read_csv("D:\mushrooms.csv")
+df=pd.read_csv("mushrooms.csv")
 labelencoder=LabelEncoder()
 #here labelencoder is used to convert the categorical data into numerical form
 ds=df.apply(labelencoder.fit_transform)
